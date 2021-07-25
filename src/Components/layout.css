@@ -1,0 +1,39 @@
+.calci {
+    border: 1px solid white;
+    box-shadow: 10px 10px 50px 0px black;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 560px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    margin: auto;
+}
+
+.button {
+    padding: 5px;
+}
+
+@font-face {
+    font-family: 'digital-7';
+    src: url(../Assets/DIGITALDREAMFATNARROW.ttf);
+}
+
+.screen {
+    background-color: rgb(34, 71, 236);
+    color: white;
+    font-family: 'digital-7', sans-serif;
+    display: block;
+    width: 90%;
+    margin-left: 19px;
+    text-align: right;
+    padding: 10px;
+}
